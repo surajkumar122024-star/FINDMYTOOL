@@ -1,0 +1,222 @@
+[
+  {
+    "id": "1",
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "category": "AI Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.8,
+    "shortDescription": "The world's leading conversational AI assistant for writing, coding, analysis, and creative brainstorming.",
+    "website": "https://chatgpt.com",
+    "tags": ["AI Assistant", "Chatbot", "LLM", "OpenAI"]
+  },
+  {
+    "id": "2",
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "category": "AI Tools",
+    "pricing": "Paid",
+    "rating": 4.7,
+    "shortDescription": "State-of-the-art text-to-image generative AI model that produces beautiful, high-fidelity artistic outputs.",
+    "website": "https://midjourney.com",
+    "tags": ["AI Art", "Generative AI", "Image Creator", "Design"]
+  },
+  {
+    "id": "3",
+    "slug": "v0-by-vercel",
+    "name": "v0 by Vercel",
+    "category": "Coding Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.9,
+    "shortDescription": "Generative UI system by Vercel that converts natural language prompts into production-ready React and Tailwind components.",
+    "website": "https://v0.dev",
+    "tags": ["Generative UI", "React", "Frontend", "Coding Assistant"]
+  },
+  {
+    "id": "4",
+    "slug": "pdf2go",
+    "name": "PDF2Go",
+    "category": "PDF Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.3,
+    "shortDescription": "Versatile online PDF editor that allows you to edit, convert, split, merge, compress, and secure PDF files in your browser.",
+    "website": "https://pdf2go.com",
+    "tags": ["PDF Editor", "Converter", "PDF Utilities", "Document Management"]
+  },
+  {
+    "id": "5",
+    "slug": "tinypng",
+    "name": "TinyPNG",
+    "category": "Image Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.6,
+    "shortDescription": "Smart WEBP, PNG, and JPEG compression tool that optimizes image file sizes while maintaining high visual quality.",
+    "website": "https://tinypng.com",
+    "tags": ["Compression", "Image Optimizer", "Web Performance", "Utilities"]
+  },
+  {
+    "id": "6",
+    "slug": "loom",
+    "name": "Loom",
+    "category": "Video Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.5,
+    "shortDescription": "Asynchronous video messaging tool that lets you record your screen, camera, and voice for immediate sharing.",
+    "website": "https://loom.com",
+    "tags": ["Screen Recorder", "Video Messaging", "Team Communication", "Productivity"]
+  },
+  {
+    "id": "7",
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "category": "Audio Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.8,
+    "shortDescription": "Advanced generative AI audio platform that produces realistic, emotional text-to-speech and voice cloning.",
+    "website": "https://elevenlabs.io",
+    "tags": ["Text to Speech", "Voice Cloning", "AI Audio", "Voiceover"]
+  },
+  {
+    "id": "8",
+    "slug": "jasper",
+    "name": "Jasper",
+    "category": "Writing Tools",
+    "pricing": "Paid",
+    "rating": 4.4,
+    "shortDescription": "Enterprise AI copilot for marketing teams that accelerates blog, social media, copy, and email generation.",
+    "website": "https://jasper.ai",
+    "tags": ["AI Writer", "Copywriting", "Marketing", "Content Creation"]
+  },
+  {
+    "id": "9",
+    "slug": "semrush",
+    "name": "Semrush",
+    "category": "SEO Tools",
+    "pricing": "Paid",
+    "rating": 4.6,
+    "shortDescription": "All-in-one digital marketing suite containing keyword research, rank tracking, link audits, and competitor analysis.",
+    "website": "https://semrush.com",
+    "tags": ["SEO", "Keyword Research", "Competitor Audit", "Marketing"]
+  },
+  {
+    "id": "10",
+    "slug": "mailchimp",
+    "name": "Mailchimp",
+    "category": "Marketing Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.2,
+    "shortDescription": "Marketing automation and email marketing platform that manages subscriber lists and tracks campaign analytics.",
+    "website": "https://mailchimp.com",
+    "tags": ["Email Marketing", "Automation", "Newsletters", "Campaigns"]
+  },
+  {
+    "id": "11",
+    "slug": "notion",
+    "name": "Notion",
+    "category": "Productivity Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.7,
+    "shortDescription": "Flexible workspace for documentation, notes, tasks, databases, and general wiki structures.",
+    "website": "https://notion.so",
+    "tags": ["Note-taking", "Workspace", "Wikis", "Project Management"]
+  },
+  {
+    "id": "12",
+    "slug": "figma",
+    "name": "Figma",
+    "category": "Image Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.9,
+    "shortDescription": "Collaborative interface design platform for UI/UX design, interactive prototyping, and design systems.",
+    "website": "https://figma.com",
+    "tags": ["UI/UX Design", "Prototyping", "Vector Design", "Collaboration"]
+  },
+  {
+    "id": "13",
+    "slug": "claude",
+    "name": "Claude",
+    "category": "AI Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.9,
+    "shortDescription": "Anthropic's safety-first language model with exceptional coding, logical reasoning, and long-context processing.",
+    "website": "https://claude.ai",
+    "tags": ["AI Assistant", "LLM", "Coding Partner", "Anthropic"]
+  },
+  {
+    "id": "14",
+    "slug": "canva",
+    "name": "Canva",
+    "category": "Image Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.7,
+    "shortDescription": "Online graphic design platform loaded with templates, illustrations, and simple drag-and-drop tools.",
+    "website": "https://canva.com",
+    "tags": ["Graphic Design", "Templates", "Social Media", "Visual Editor"]
+  },
+  {
+    "id": "15",
+    "slug": "remove-bg",
+    "name": "Remove.bg",
+    "category": "Image Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.6,
+    "shortDescription": "Specialized AI utility that automatically detects subject outlines and removes backgrounds from images instantly.",
+    "website": "https://remove.bg",
+    "tags": ["Background Removal", "Image Editing", "AI Utility", "Tool"]
+  },
+  {
+    "id": "16",
+    "slug": "audacity",
+    "name": "Audacity",
+    "category": "Audio Tools",
+    "pricing": "Free",
+    "rating": 4.5,
+    "shortDescription": "Open-source audio editing and multitrack recording software that has powered creators for decades.",
+    "website": "https://audacityteam.org",
+    "tags": ["Audio Editor", "Recording", "Open Source", "Sound Design"]
+  },
+  {
+    "id": "17",
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "category": "Writing Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.5,
+    "shortDescription": "AI-powered writing helper that checks spelling, corrects grammar errors, and suggests stylistic improvements.",
+    "website": "https://grammarly.com",
+    "tags": ["Grammar Check", "Writing Assistant", "Proofreading", "Spell Checker"]
+  },
+  {
+    "id": "18",
+    "slug": "cursor",
+    "name": "Cursor",
+    "category": "Coding Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.9,
+    "shortDescription": "The AI-first code editor that natively integrates AI suggestions, auto-completion, and conversational search.",
+    "website": "https://cursor.com",
+    "tags": ["IDE", "Code Editor", "AI Coding", "Software Development"]
+  },
+  {
+    "id": "19",
+    "slug": "ahrefs",
+    "name": "Ahrefs",
+    "category": "SEO Tools",
+    "pricing": "Paid",
+    "rating": 4.7,
+    "shortDescription": "Powerful SEO toolkit designed for backlink checks, domain authority auditing, and organic traffic estimation.",
+    "website": "https://ahrefs.com",
+    "tags": ["SEO Suite", "Backlink Check", "Keywords", "Web Ranking"]
+  },
+  {
+    "id": "20",
+    "slug": "linear",
+    "name": "Linear",
+    "category": "Productivity Tools",
+    "pricing": "Free / Paid",
+    "rating": 4.8,
+    "shortDescription": "Fast, keyboard-optimized issue and project tracker designed for modern software development cycles.",
+    "website": "https://linear.app",
+    "tags": ["Project Management", "Issue Tracker", "Agile", "Software Team"]
+  }
+]
