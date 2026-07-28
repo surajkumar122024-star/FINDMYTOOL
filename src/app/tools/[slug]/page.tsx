@@ -56,7 +56,7 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
         ))}
       </div>
 
-      
+      <a
         href={tool.website}
         target="_blank"
         rel="noopener noreferrer"
