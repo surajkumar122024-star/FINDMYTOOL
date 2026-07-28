@@ -47,7 +47,9 @@ export default function ToolCard({ tool }: ToolCardProps) {
   };
 
   return (
-   <article className="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-zinc-100 bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-100 hover:shadow-lg hover:shadow-indigo-100/50">
+   <article className="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-zinc-100 bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-indigo-200 hover:shadow-2xl hover:shadow-indigo-200/60">
+  {/* Mirror shine sweep effect */}
+  <div className="pointer-events-none absolute inset-0 -translate-x-full skew-x-12 bg-gradient-to-r from-transparent via-white/60 to-transparent transition-transform duration-700 ease-out group-hover:translate-x-full" />
       <div>
         {/* Card Header (Logo and Badges) */}
         <div className="flex items-start justify-between gap-4 mb-4">
