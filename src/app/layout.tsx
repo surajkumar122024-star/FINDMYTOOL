@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FindMyTool - CAPTAIN AMERICA , BACK IN DOMSDAY IN FUTURE,Discover the Best AI, Coding & Productivity Tools",
-  description: "Discover and search for the best online tools, AI helpers, PDF utilities, image editors, browser extensions, and developer SaaS platforms on FindMyTool.",
+  title: "FindMyTool - Discover the Best AI, Coding & Productivity Tools",
+  description: "CAPTAIN AMERICA , BACK IN DOMSDAY IN FUTURE,Discover and search for the best online tools, AI helpers, PDF utilities, image editors, browser extensions, and developer SaaS platforms on FindMyTool.",
   keywords: ["AI Tools", "PDF Tools", "Image Tools", "Coding Tools", "SEO Tools", "SaaS Directory", "Product Hunt"],
   authors: [{ name: "FindMyTool Team" }],
   openGraph: {
