@@ -1,3 +1,4 @@
+import SearchBar from "@/components/SearchBar";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ToolCard from "@/components/ToolCard";
@@ -139,41 +140,10 @@ export default function Home() {
               coding helpers, and more — all in one place.
             </p>
 
-            {/* Search Bar — 64px height */}
-            <div className="mx-auto mt-10 max-w-2xl">
-              <div
-                className="flex h-16 items-center overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xl shadow-slate-200/80 transition-all duration-300 focus-within:border-blue-400 focus-within:ring-4 focus-within:ring-blue-100"
-              >
-                <div className="flex shrink-0 items-center pl-5">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5 text-slate-400"
-                  >
-                    <circle cx="11" cy="11" r="8" />
-                    <path d="m21 21-4.3-4.3" />
-                  </svg>
-                </div>
-                <input
-                  type="search"
-                  placeholder="Search any tool... (ChatGPT, Canva, Cursor, Remove.bg...)"
-                  className="h-full w-full border-0 bg-transparent px-4 text-base text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-0"
-                  disabled
-                  aria-label="Search tools"
-                />
-                <button
-                  type="button"
-                  disabled
-                  className="mr-2 shrink-0 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 px-7 py-2.5 text-sm font-bold text-white shadow-md shadow-blue-500/25 transition-all duration-200 hover:from-blue-700 hover:to-indigo-700 hover:shadow-blue-500/40 hover:scale-[1.02] active:scale-[0.98] cursor-not-allowed"
-                >
-                  Search
-                </button>
-              </div>
+{/* Search Bar */}
+<div className="mx-auto mt-10 max-w-2xl">
+  <SearchBar />
+</div>
 
               {/* Colorful Category Chips with icons */}
               <div className="mt-5 flex flex-wrap items-center justify-center gap-2">
