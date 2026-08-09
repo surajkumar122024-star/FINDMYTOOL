@@ -37,8 +37,8 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Suraj Kumar" }],
   verification: {
-    google: "google1362e28fb8ef01a37",
-  },
+    google: "GGvF0UPj84iXp1cP1DJ_wHEr1NISZjBJvqL34DwgOOY",
+  }
   openGraph: {
     title: "FindMyTool - Best Free Online Tools Directory",
     description: "Find the right free online tool in seconds.",
