@@ -1,8 +1,23 @@
 // src/app/layout.tsx
 import type { Metadata } from "next";
+import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
+import "./globals.css";
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+});
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains-mono",
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://findmytool-gamma.vercel.app"), // apna custom domain lagana baad me
+  metadataBase: new URL("https://findmytool-gamma.vercel.app"),
   title: {
     default: "FindMyTool - Best Free Online Tools Directory",
     template: "%s | FindMyTool",
@@ -19,16 +34,18 @@ export const metadata: Metadata = {
     "productivity tools",
     "utility tools website",
     "findmytool",
-    // apni site ke actual tools ke naam yahan add karo, e.g. "pdf converter online", "image compressor free"
   ],
   authors: [{ name: "Suraj Kumar" }],
+  verification: {
+    google: "google1362e28fb8ef01a37",
+  },
   openGraph: {
     title: "FindMyTool - Best Free Online Tools Directory",
     description: "Find the right free online tool in seconds.",
     url: "https://findmytool-gamma.vercel.app",
     siteName: "FindMyTool",
     type: "website",
-    images: ["/og-image.png"], // 1200x630 image public folder me daalo
+    images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
@@ -41,3 +58,19 @@ export const metadata: Metadata = {
     follow: true,
   },
 };
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body
+        className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}
+      >
+        {children}
+      </body>
+    </html>
+  );
+}
