@@ -36,9 +36,7 @@ export const metadata: Metadata = {
     "findmytool",
   ],
   authors: [{ name: "Suraj Kumar" }],
-  <meta name="google-site-verification" content="GGvF0UPj84iXp1cP1DJ_wHErlNISZjBJvqL34DwgOOY" />
-  },
-  openGraph: {
+    openGraph: {
     title: "FindMyTool - Best Free Online Tools Directory",
     description: "Find the right free online tool in seconds.",
     url: "https://findmytool-gamma.vercel.app",
@@ -65,6 +63,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta name="google-site-verification" content="GGvF0UPj84iXp1cP1DJ_wHErlNISZjBJvqL34DwgOOY" />
       <body
         className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}
       >
