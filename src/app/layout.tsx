@@ -63,7 +63,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <meta name="google-adsense-account" content="ca-pub-6461565201811259">
+      <meta name="google-adsense-account" content="ca-pub-6461565201811259" />
       <body
         className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}
       >
